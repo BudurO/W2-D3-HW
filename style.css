@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+}
+body {
+  height: 1000px;
+}
+header {
+  background: linear-gradient(#db64e6, #959ce5);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+img {
+  height: 3rem;
+  width: 213.07;
+  margin-top: 15px;
+  margin-right: 90px;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-top: 32px;
+}
+.nav-item {
+  color: white;
+}
+main {
+  background: linear-gradient(#959ce5, #c56ecd);
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-tech {
+  font-size: 6rem;
+  color: white;
+  width: 32rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+}
+.start-now {
+  border: 0 solid #eaecf0;
+  background-color: #54bbbd;
+  padding: 16px 150px;
+  padding-bottom: 0;
+  padding-top: 20px;
+  color: white;
+  font-size: 3rem;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.section-camps-and-programmes {
+  background-color: rgb(242 244 247);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.camps-and-programmes {
+  text-align: center;
+  color: #4e3797;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 55px;
+}
+.meeting {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.box-meeting {
+  width: 320px;
+  height: 260px;
+  background-color: #ffffff;
+  text-align: right;
+  border-right: 15px solid #c084fc;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.img-Occupational {
+  position: relative;
+}
+.Occupational {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 60px;
+  position: absolute;
+  right: 190px;
+  bottom: -60px;
+  padding: 4px;
+  object-fit: contain;
+  object-position: center;
+}
+.meeting-text {
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #c084fc;
+}
+.challenge {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.meeting-text-black {
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.all-icons {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+.icon {
+  height: 1.25rem;
+  margin: 20px;
+  display: flex;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 0;
+}
+.icon-text {
+  margin-left: 9px;
+  font-size: 0.75rem;
+}
+.icon-text-button {
+  margin-right: 60px;
+  color: #c084fc;
+  border: 1px solid #c084fc;
+  background-color: white;
+  padding: 2px 20px 2px;
+  border-radius: 15px;
+}
+.icon-text-button-disabled {
+  margin-right: 60px;
+  color: #4d4d4d;
+  border: 1px solid #e4e2e4;
+  background-color: white;
+  padding: 2px 20px 2px;
+  border-radius: 15px;
+}
+.all-more-camps-and-programmes {
+  display: flex;
+  justify-content: center;
+}
+.more-camps-and-programmes {
+  border: 1px solid #4e3797;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 300px;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(242 244 247);
+  color: #4e3797;
+}
+.section-number {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 90px;
+  width: 100vw;
+  height: 70vh;
+}
+.number-acdamy {
+  display: flex;
+  justify-content: center;
+  color: rgb(78 55 151);
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin-top: 40px;
+}
+.Number-of {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.box-Number-of {
+  width: 15rem;
+  height: 16rem;
+  background-color: rgb(255 255 255);
+  text-align: right;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  box-shadow: 5px 10px 18px #888888;
+  margin-top: 90px;
+  padding: 5px;
+}
+.img-icons-number {
+  position: relative;
+}
+.img-icon-number {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid white;
+  background-color: rgb(145 216 219);
+  border-radius: 60px;
+  position: absolute;
+  right: -0px;
+  bottom: -60px;
+  padding: 4px;
+  object-fit: contain;
+  object-position: center;
+}
+.all-text-training {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text-training {
+  color: rgb(91 190 194);
+  margin-top: 90px;
+  text-align: center;
+  line-height: 2rem;
+  width: 140px;
+  font-size: large !important;
+}
+.text-training-satr,
+.text-training-registered {
+  width: 120px;
+  color: rgb(91 190 194);
+  margin-top: 90px;
+  text-align: center;
+  line-height: 2rem;
+  font-size: large !important;
+}
+.number-training {
+  color: rgb(107 33 168);
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.text-camps-and-programmes {
+  font-size: smaller;
+  text-align: center;
+}
+.all-report {
+  display: flex;
+  justify-content: center;
+}
+.report {
+  border: 1px solid #4e3797;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 300px;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  color: #4e3797;
+}
+.Academy-activities-section {
+  background-color: rgb(78 55 151);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+.text-Academy-activities {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin-top: 40px;
+  color: white;
+}
+.box-Number-of-activities {
+  width: 14rem;
+  height: 25rem;
+  background-color: white;
+  text-align: right;
+  border-radius: 12px;
+  margin-bottom: 32px;
+  margin-top: 90px;
+  padding: 5px;
+}
+.img-icons-number-activities {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-icon-number-activities {
+  margin-top: 90px;
+}
+.all-text-training-activities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-training-activities {
+  color: rgb(91 190 194);
+  text-align: center;
+  line-height: 2rem;
+  font-size: large !important;
+}
+.text-training-activities-satr {
+  width: 120px;
+  color: rgb(91 190 194);
+  text-align: center;
+  line-height: 2rem;
+  font-size: large !important;
+}
+.number-training-activities {
+  font-size: 1.05rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.text-camps-and-programmes-activities {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #4e3797;
+  color: white;
+  border-radius: 15px;
+  padding: 3px 35px;
+}
+.text-camps-and-programmes-activities-learn {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #4e3797;
+  color: white;
+  border-radius: 15px;
+  padding: 3px 55px;
+}
+.News-and-events-section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 90px;
+  width: 100vw;
+  height: 70vh;
+}
+
+.img-News-and-events {
+  width: 688px;
+  height: 458.66px;
+  border-radius: 15px;
+}
+.text-News-and-events {
+  color: rgb(145 216 219);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.text-News-and-events-more {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: right;
+  font-weight: bold;
+}
+.text-News-and-events-more-new {
+  margin-bottom: 29px;
+}
+hr {
+  margin-bottom: 16px;
+  border-top: 1px solid #4e3797;
+  padding: 0;
+  margin-left: 10px;
+}
+.News-and-events-more-button {
+  border: 1px solid #4e3797;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 300px;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: white;
+  color: #4e3797;
+  margin-bottom: 32px;
+}
+.section-partner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242 244 247);
+  height: 50vh;
+}
+.img-partner {
+  width: 200px;
+  height: 200px;
+}
+
+.Subscribe {
+  background-color: rgb(91 190 194);
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+.Number-of-Subscribe {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.all-text-training-Subscribe {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.text-training-Subscribe {
+  border-radius: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+.News-and-events-more-button-Subscribe {
+  border: 1px solid #4e3797;
+  width: 11rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  background-color: #4e3797;
+  color: white;
+  margin-bottom: 32px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
